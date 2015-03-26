@@ -2,14 +2,17 @@
 
 This is a documentation repository to start develop for XYZ
 
-To start with you will need a repository with a Dockerfile. In the section *xyz-docker-docs* on this page you can find some different repositories for different type of projects that you can start with.
+
+## First step
+You need a repository with a Dockerfile. In section [xyz-docker-docs](#xyz-docker-docs) you can find some different repositories for different type of projects that you can start with. If you decide to use one of these you should Fork it and then change name on it to what your "homepage" will be called.
 
 If you want something else you can easily create one yourself, just inspect the other ones and you will figure it out ;)
 
-The thing about XYZ, that makes it soooo cool, is that it will be deployed instantly( or maybe in a few minutes in real life :P ). The only thing we need to do to activate this behavious is to add a webhook to our repostory that will be triggered everytime something gets merged to Master.
+## Setup Webhook
 
-## Webhook
+The thing about XYZ, that makes it soooo cool, is that it will be deployed instantly( or maybe in a few minutes in real life :P ) when commiting to master branch. The only thing you need to do to activate this behaviour is to add a webhook to your repository.
 
+Follow the images below and you will be fine.
 
 ![](https://raw.githubusercontent.com/guzmo/xyz-docker-docs/master/images/image01.png)
 
@@ -57,50 +60,15 @@ Below are repositories ready for use.
 [https://github.com/tibysko/xyz-docker-django](https://github.com/tibysko/xyz-docker-django "Django")
 
 
-**Api for local development**
+#Api for local development
 
-XYZ should try to use the same REST API when handling storage/data.
+XYZ would love if you all developers used the same REST API when handling storage/data.
 
 The repository and more info about this can be found at [https://github.com/guzmo/xyz-docker-dev-api](https://github.com/guzmo/xyz-docker-dev-api "Dev api")
 
+#Contributing
 
-
-
-
-
-
-
-
-
-## Troubleshooting ##
-
-**Something goes wrong when you use *vagrant up:***
-
-Use *vagrant destroy* to remove everything and then do *vagrant up* again.
-
-**Error when docker containers are starting?**
-
-Enter the Vagrant box by using the command *vagrant ssh* in the same folder as the Vagrantfile.
-When inside:
-
-    cd /vagrant
-    docker-compose up
-
-This should recreate the boxes and hopefully work.
-
-**Other errors**
-
-If you get this error below: 
-
-    ==> default: Waiting for machine to boot. This may take a few minutes...
-    The guest machine entered an invalid state while waiting for it
-    to boot. Valid states are 'starting, running'. The machine is in the
-    'poweroff' state. Please verify everything is configured
-    properly and try again.
-
-or if you get timeout or ssh problems to the box, the cause may be Virtualizaion(VT-x) being turned off in the BIOS.
-
-
+Feel free to contribute to this repo and also all of the different xyz-docker repos to make it more awesome! 
 
 
 
