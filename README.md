@@ -66,6 +66,9 @@ If you need to retrieve the user credentials you can do that in the header varia
   - **Email:** x-forwarded-email
   - **Account name:**  x-forwarded-user 
 
+For local development you can use the plugin called *modHeader*, it exists for FireFox and Chrome.
+Just add both of the headers with fake values and you are ready to go. ( Ofc this doesn't work in production ;)... ).
+
 ##Api for local development
 
 XYZ would love if you all developers used the same REST API when handling storage/data.
