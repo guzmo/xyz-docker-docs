@@ -59,14 +59,20 @@ Below are repositories ready for use.
 
 [https://github.com/tibysko/xyz-docker-django](https://github.com/tibysko/xyz-docker-django "Django")
 
+##Retrieve logged in user
 
-#Api for local development
+If you need to retrieve the user credentials you can do that in the header variables:
+
+  - **Email:** x-forwarded-email
+  - **Account name:**  x-forwarded-user 
+
+##Api for local development
 
 XYZ would love if you all developers used the same REST API when handling storage/data.
 
 The repository and more info about this can be found at [https://github.com/guzmo/xyz-docker-dev-api](https://github.com/guzmo/xyz-docker-dev-api "Dev api")
 
-#Contributing
+##Contributing
 
 Feel free to contribute to this repo and also all of the different xyz-docker repos to make it more awesome! 
 
