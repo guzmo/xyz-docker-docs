@@ -36,6 +36,10 @@ Below are repositories ready for use.
 
 [https://github.com/guzmo/xyz-docker-nodejs](https://github.com/guzmo/xyz-docker-nodejs)
 
+**React.js**
+
+[https://github.com/cfj/react-boilerplate](https://github.com/cfj/react-boilerplate)
+
 **Java**
 
 [https://github.com/jonaseck2/xyz-java-jetty](https://github.com/jonaseck2/xyz-java-jetty)
